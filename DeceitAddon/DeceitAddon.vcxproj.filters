@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{4b32ddc2-681a-464c-87e5-1ef85d368a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{cac4da4b-f52b-48ea-88e1-efaf3da71d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UltHook">
+      <UniqueIdentifier>{b0f1788c-d583-4a0c-917c-0740e3e5d46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a45d5dbb-1809-4400-9077-d2a0f4e08469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{f7f9d092-4240-4077-b9dc-35fb178df158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{6f47a84d-9300-4dc5-bfed-4bd15a80d675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Patchables">
+      <UniqueIdentifier>{bd7f35ba-6910-4e3d-b576-c71fb92794ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{304d8e02-8fdf-4926-bdd5-65bb50258bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UltimateHooks">
+      <UniqueIdentifier>{b7d80cd2-0dcb-49b4-8b03-04331b07d8ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_stdlib.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\ultimate_hooks.h">
+      <Filter>UltHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\makesyscall.h">
+      <Filter>UltHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Patchables</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="..\..\WTAddonInternal\WTAddonInternal\UltimateHooks\ultimate_hooks.h">
+      <Filter>UltimateHooks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WTAddonInternal\WTAddonInternal\UltimateHooks\makesyscall.h">
+      <Filter>UltimateHooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_stdlib.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="DirectX.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\ultimate_hooks.cpp">
+      <Filter>UltHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Patchables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WTAddonInternal\WTAddonInternal\UltimateHooks\ultimate_hooks.cpp">
+      <Filter>UltimateHooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
