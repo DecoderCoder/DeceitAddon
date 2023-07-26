@@ -153,8 +153,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\WTAddonInternal\WTAddonInternal\UltimateHooks\makesyscall.h" />
-    <ClInclude Include="..\..\WTAddonInternal\WTAddonInternal\UltimateHooks\ultimate_hooks.h" />
     <ClInclude Include="DirectX.h" />
     <ClInclude Include="Globals.h" />
     <ClInclude Include="Hooks\makesyscall.h" />
@@ -176,7 +174,6 @@
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\WTAddonInternal\WTAddonInternal\UltimateHooks\ultimate_hooks.cpp" />
     <ClCompile Include="DirectX.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="Hooks\ultimate_hooks.cpp" />

@@ -25,9 +25,6 @@
     <Filter Include="Utils">
       <UniqueIdentifier>{304d8e02-8fdf-4926-bdd5-65bb50258bab}</UniqueIdentifier>
     </Filter>
-    <Filter Include="UltimateHooks">
-      <UniqueIdentifier>{b7d80cd2-0dcb-49b4-8b03-04331b07d8ac}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ImGui\imgui.h">
@@ -85,12 +82,6 @@
       <Filter>Utils</Filter>
     </ClInclude>
     <ClInclude Include="Globals.h" />
-    <ClInclude Include="..\..\WTAddonInternal\WTAddonInternal\UltimateHooks\ultimate_hooks.h">
-      <Filter>UltimateHooks</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\WTAddonInternal\WTAddonInternal\UltimateHooks\makesyscall.h">
-      <Filter>UltimateHooks</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ImGui\imgui.cpp">
@@ -135,9 +126,6 @@
     </ClCompile>
     <ClCompile Include="Structs.cpp">
       <Filter>Patchables</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\WTAddonInternal\WTAddonInternal\UltimateHooks\ultimate_hooks.cpp">
-      <Filter>UltimateHooks</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
