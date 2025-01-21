@@ -6,7 +6,6 @@
 #include "d3d11.h"
 #include <dxgi.h>
 #include <stdint.h>
-#include "d3dx11tex.h"
 #include "Hooks/ultimate_hooks.h"
 
 #pragma comment(lib, "shlwapi.lib")

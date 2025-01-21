@@ -479,7 +479,7 @@ void Main::MainWindow() {
 
 
 	localPlayer = pGameFramework->GetClientEntity();
-
+	ImGui::Text(to_hex(localPlayer).c_str());
 	if (pEntitySystem->GetEntityNum() == 0)
 	{
 		detectedBags.clear();
